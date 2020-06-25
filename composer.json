@@ -1,0 +1,23 @@
+{
+  "name": "macrocompute/coinbase-pro-api-client",
+  "description": "Coinbase Pro REST API Client",
+  "type": "project",
+  "license": "Proprietary",
+  "authors": [
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "config":{
+    "secure-http": false
+  },
+  "require": {
+    "php": ">7.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "coinbase_pro_api_client\\": "src/"
+    }
+  }
+}
